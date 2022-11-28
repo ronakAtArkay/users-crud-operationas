@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 class UserModel(Base):
-    __tablename__ = "users"
+    __tablename__ = "users_"
 
     id = Column(String(200), primary_key = True)
     first_name = Column(String(200))
